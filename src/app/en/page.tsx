@@ -1,21 +1,20 @@
 import Image from "next/image";
-import "./globals.css";
-import AboutMe from "./pl/aboutMe";
-import Hobby from "./pl/hobby";
-import Education from "./pl/education";
-import Cert from "./pl/certificate";
-import Exp from "./pl/experience.";
-import Projects from "./pl/projects";
-import Comp from "./pl/competition";
-import Pfooter from "./pl/pfooter";
-import TechStack from "./pl/techstack";
+import "../globals.css";
+import AboutMe from "./aboutMe";
+import Hobby from ".//hobby";
+import Education from "./education";
+import Cert from "./certificate";
+import Exp from ".//experience.";
+import Projects from ".//projects";
+import Comp from "./competition";
+import TechStack from "../pl/techstack";
 export default function Home() {
   return (
 
     <main className="justify-center flex pt-[100px]  pbg">
       <div className="text-white max-[1200px]:w-[90%] w-[80%] justify-center flex bg-[#390300] opacity-[95%] rounded-[20px] z-0">
         <div className="py-[40px]">
-          <AboutMe />
+        <AboutMe />
           <TechStack />
           <Hobby />
           <div className="h-[50px]" id="education"></div>

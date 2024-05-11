@@ -2,32 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.myimg{
+  border-radius: 20% 20% 20% 20%;
+  animation-name: photoanim;
+  animation-duration: 6s;
+  animation-delay: 0ms;
+  animation-iteration-count: infinite;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@keyframes photoanim{
+  0% {
+    border-radius: 20% 20% 20% 20%;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  33% {
+    border-radius: 30% 15% 50% 0;
   }
+ 
+  66% {
+    border-radius: 0% 30% 15% 50%;
+  }
+ 
+
 }
+
+.stackanimation{
+  position: relative;
+  top: 0;
+  transition-property: top;
+  transition-duration: 0.3s;
+}
+
+.stackanimation:hover {
+  top: 10px;
+}
+
+.hbg {
+  background-image: url("../../public/images/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pbg {
+  background-image: url("../../public/images/bg.jpg");
+}
+
+.boxanimation {
+  transition-property: background-color, border-radius;
+  transition-duration: 1s;
+}
+
+.boxanimation:hover {
+  background-color: #712020;
+}
+
