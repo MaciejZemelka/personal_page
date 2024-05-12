@@ -14,7 +14,7 @@ export default function Hobby() {
             </div>
             <div className="grid w-[490px] max-[1300px]:w-[400px] max-[900px]:w-[600px]  max-[700px]:w-[450px] max-[500px]:w-[300px] max-[340px]:w-[250px] border-[3px] border-[#F00] rounded-[10px] px-5 pb-3 pt-1 bg-[#722] ">
               <h2 className="justify-center flex py-2 text-[20px]">SOCCER</h2>
-              <a>I wouldn&apos;t call it a hobby, because I don't watch matches and don&apos;t care about any team beside Polish National Team, but I&apos;m trying to play atleast one a week to be active.</a>
+              <a>I wouldn&apos;t call it a hobby, because I don&apos;t watch matches and don&apos;t care about any team beside Polish National Team, but I&apos;m trying to play atleast one a week to be active.</a>
             </div>
             <div className=" grid w-[490px] max-[1300px]:w-[400px] max-[900px]:w-[600px] max-[700px]:w-[450px] max-[500px]:w-[300px] max-[340px]:w-[250px] border-[3px] border-[#F00] rounded-[10px] px-5 pb-3 pt-1 bg-[#722] ">
               <h2 className="justify-center flex py-2 text-[20px]">COMPUTER GAMES</h2>

@@ -42,14 +42,14 @@ export default function AboutMe() {
 
             <h2 className="justify-center flex font-bold "><span className="max-[400px]:hidden">EXTRAMURAL&nbsp;</span>STUDENT OF AGH</h2>
             <div className="px-3 text-[18px] text-justify hidden" id="second">
-              <a>I'm currently an extramural student of AGH University of Kraków, in the first year of Computer Science In Engineering at the faculty of Material Engineering and Industrial Computer Science. </a>
+              <a>I&apos;m currently an extramural student of AGH University of Kraków, in the first year of Computer Science In Engineering at the faculty of Material Engineering and Industrial Computer Science. </a>
             </div>
 
           </div>
           <div className="text-left border-[3px] border-[#F00] rounded-[24px] py-2 cursor-pointer boxanimation" onClick={() => showDi("third")} >
             <h2 className="justify-center flex font-bold">IT SPECIALIST</h2>
             <div className="px-3 text-[18px] text-justify hidden" id="third">
-              <a >I became interested in computer science at the end of secondary school, and that's when I chose my technical school major, i.e. IT specialist at the ZSE NR.9 in Kraków. </a>
+              <a >I became interested in computer science at the end of secondary school, and that&apos;s when I chose my technical school major, i.e. IT specialist at the ZSE NR.9 in Kraków. </a>
             </div>
           </div>
           <div className="text-left border-[3px] border-[#F00] rounded-[24px] py-2 cursor-pointer boxanimation" onClick={() => showDi("fourth")}>
