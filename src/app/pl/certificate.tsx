@@ -16,11 +16,11 @@ export default function Cert() {
 
   return (
 
-    <div className="justify-center flex py-10 " id="cert">
-      <div className="w-[60%] max-[1600px]:w-[90%] flex justify-center">
+    <div className="justify-center flex py-10 ">
+      <div className="w-[60%] max-[1600px]:w-[90%] flex justify-center ">
         <div>
           <div className=" text-center">
-            <h1 className="text-[50px] max-[600px]:text-[40px]">CERTYFIKATY</h1>
+            <h1 className="text-[50px] max-[600px]:text-[40px] max-[370px]:text-[26px]">CERTYFIKATY</h1>
           </div>
           <hr></hr>
           <div className="py-5 text-[18px] text-justify px-4 ">

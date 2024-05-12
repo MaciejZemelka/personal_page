@@ -14,7 +14,7 @@ export default function Home() {
     <main className="justify-center flex pt-[100px]  pbg">
       <div className="text-white max-[1200px]:w-[90%] w-[80%] justify-center flex bg-[#390300] opacity-[95%] rounded-[20px] z-0">
         <div className="py-[40px]">
-        <AboutMe />
+          <AboutMe />
           <TechStack />
           <Hobby />
           <div className="h-[50px]" id="education"></div>

@@ -3,7 +3,7 @@ import "../globals.css";
 
 export default function Projects() {
     return (
-        <div className="justify-center flex" id="projects">
+        <div className="justify-center flex" >
             <div className="w-[60%] max-[1600px]:w-[90%]  flex justify-center text-[20px]">
                 <div>
                     <div className=" justify-center flex">

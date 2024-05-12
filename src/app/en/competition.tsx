@@ -4,10 +4,10 @@ import "../globals.css";
 export default function Comp() {
     return (
 
-        <div className="justify-center flex py-10 bg-[#390300]" id="comp">
+        <div className="justify-center flex py-10 " >
             <div className="w-[60%] max-[1600px]:w-[90%] ">
                 <div className=" justify-center flex">
-                    <h1 className="text-[50px] max-[600px]:text-[40px]">COMPETITION</h1>
+                    <h1 className="text-[50px] max-[600px]:text-[40px] max-[370px]:text-[24px]">COMPETITION</h1>
                 </div>
                 <hr></hr>
                 <div className="pt-4" >

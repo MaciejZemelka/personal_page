@@ -45,9 +45,9 @@ export default function AboutMe() {
           </div>
           <div className="text-left  border-[3px] border-[#F00] rounded-[24px] py-2 cursor-pointer boxanimation" onClick={() => showDi("second")}>
 
-            <h2 className="justify-center flex font-bold">ZAOCZNY STUDENT AGH</h2>
+            <h2 className="justify-center flex font-bold max-[300px]:text-[13px]">ZAOCZNY STUDENT AGH</h2>
             <div className="px-3 text-[18px] text-justify hidden" id="second">
-              <a className="py-2">Generalnie aktualnie jestem studentem AGH, na pierwszym roku kierunku Informatyka Techniczna na wydziale inżynierii materiału i informatyki przemysłowej. </a>
+              <a className="py-2">Aktualnie jestem zaocznym studentem AGH, na pierwszym roku kierunku Informatyka Techniczna na wydziale inżynierii materiału i informatyki przemysłowej. </a>
             </div>
 
           </div>
@@ -60,8 +60,8 @@ export default function AboutMe() {
           <div className="text-left border-[3px] border-[#F00] rounded-[24px] py-2 cursor-pointer boxanimation" onClick={() => showDi("fourth")}>
             <h2 className="justify-center flex font-bold">SAMOUK FRONT-END</h2>
             <div className="px-3 text-[18px] text-justify hidden" id="fourth">
-              <a className="">Stwierdziłem, że zdobytą już wiedze w szkole zamienie na praktycznie umiejętności i zacząłem tworzyć strony internetowe od strony Front-Endu. Postawiłem na samodzielna nauke freameworku React'a z użyciem
-                TypeScript'a i TailWind. </a>
+              <a className="">Stwierdziłem, że zdobytą już wiedze w szkole zamienie na praktycznie umiejętności i zacząłem tworzyć strony internetowe od strony Front-Endu. Postawiłem na samodzielna nauke freameworku React&apos;a z użyciem
+                TypeScript&apos;a i TailWind. </a>
             </div>
           </div>
           <div className="text-left border-[3px] border-[#F00] rounded-[24px] py-2 cursor-pointer min-[831px]:hidden boxanimation" onClick={() => showDi("fifth")}>

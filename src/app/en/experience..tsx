@@ -4,7 +4,7 @@ import "../globals.css";
 export default function Exp() {
     return (
 
-        <div className="justify-center flex py-10 " id="exp">
+        <div className="justify-center flex py-10 " >
             <div className="w-[60%] max-[1600px]:w-[90%] ">
                 <div className=" justify-center flex">
                     <h1 className="text-[50px] max-[600px]:text-[40px]">EXPERIENCE</h1>
@@ -16,7 +16,7 @@ export default function Exp() {
                     <div className="border-[3px] border-[#F00] rounded-[10px] px-5 pb-3 pt-1 bg-[#722]">
                         <div className="flex justify-center ">
                             <Image
-                                src={"/images/amso.png"}
+                                src={"/images/AMSO.png"}
                                 alt="amso"
 
                                 width={300}

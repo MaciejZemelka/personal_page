@@ -24,7 +24,10 @@
  
 
 }
-
+.techstackdiv{
+  display: flex;
+  justify-content: center;
+}
 .stackanimation{
   position: relative;
   top: 0;
