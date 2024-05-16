@@ -70,7 +70,7 @@ export default function AboutMe() {
               <div className="justify-center flex py-2">
                 
                 <Image
-                  src={"/images/MZzdj.jpg"}
+                  src={"/images/MZimg.png"}
                   alt="Maciej"
                   className="myimg"
                   width={100}
@@ -97,7 +97,7 @@ export default function AboutMe() {
       <div className="w-[40%] max-[1200px]:w-[30%] max-[830px]:hidden">
         <div className="justify-center flex">
           <Image
-            src={"/images/MZzdj.jpg"}
+            src={"/images/MZimg.png"}
             alt="Maciej"
             className="myimg"
             width={150}

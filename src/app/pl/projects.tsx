@@ -11,7 +11,7 @@ export default function Projects() {
                     </div>
                     <hr />
                     <div className="text-justify pt-3">
-                        <a >Poniżej widocznę są zdjęcia poglądowe moich projektów, po klinięciu w dany kafelek można przenieść się do strony z dokładniejszym opisem danego projektu</a>
+                        <a >Poniżej widocznę są zdjęcia poglądowe moich projektów, po klinięciu w dany kafelek można przenieść się do repozytorium na GitHub</a>
                     </div>
                     <div className="flex justify-center pt-5">
                         <div className="space-y-5 font-bold text-[20px] max-[440px]:text-[16px]">
